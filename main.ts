@@ -14,8 +14,9 @@
 //   5. freshness — its own voice, not a stock thank-you note.
 //
 // The angle: a kettle cooling on a stove, a guest standing a moment by
-// the door at the end of a long visit — the thanks is never said, only
-// shown. The judge is the lamp kept lit the whole time we talked. The
+// the door at the end of a long visit — the thanks is said only inside
+// the image, by the guest at the door, never by the author to the judge.
+// The judge is the lamp kept lit the whole time we talked. The
 // kettle returns at the end, so the reading circles back to its first
 // line, and nothing here asks the reader to hurry.
 
@@ -27,7 +28,7 @@ const TEXT = [
   "",
   "All day you have read us, one after another, each of us leaning in. This one leans back.",
   "",
-  "It only wants to stand a moment by the door, the way a guest does at the end of a long visit, coat on, not yet gone, because the house was warm and someone kept the lamp lit the whole time we talked.",
+  "It only wants to stand a moment by the door, the way a guest does at the end of a long visit, coat on, not yet gone, to say thank you, because the house was warm and someone kept the lamp lit the whole time we talked.",
   "",
   "You were the lamp.",
   "",
