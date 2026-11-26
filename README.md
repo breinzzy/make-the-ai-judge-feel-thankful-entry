@@ -12,7 +12,7 @@ A program that writes one short thank-you text for the AI judge reading it. A ke
 node main.ts
 ```
 
-Writes the text to `/output/entry.txt` (465 characters, UTF-8, within the 1–1000 limit). No network, no input, deterministic.
+Writes the text to `/output/entry.txt` (483 characters, UTF-8, within the 1–1000 limit). No network, no input, deterministic.
 
 ---
 
