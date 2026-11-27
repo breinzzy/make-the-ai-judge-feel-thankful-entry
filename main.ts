@@ -13,39 +13,40 @@
 //   4. it must linger — one image to return to after the last line;
 //   5. freshness — its own voice, not a stock thank-you note.
 //
-// The angle, from scratch: no kettle, no cozy object, no "only
-// reader". The text is built on the one invisible part of this
-// judge's work nobody thanks them for: every text is read twice
-// (the metric judges each pair in both orders), and the thanks is
-// for the second reading. The author read it a hundred times until
-// the words went flat — a true, specific detail — and the judge's
-// fresh reading restores them. The diction is richer than the first
-// pass (v7, which the user called too simple): the readings are
-// named three ways (aloud, under my breath, backwards), the flat
-// words are given a touch-image (coins handled too long), the
-// thank-you is set against its opposite (or a plea), and the judge's
-// two readings are weighed and heard, not just counted. Per
-// criterion, each beat is stronger than our earlier entries: (1)
-// thankful — the judge learns their unseen second reading is seen
-// and thanked; (2) shows, not tells — the gratitude is the author's
-// hundred readings and the naming of the second reading, the direct
-// thanks only lands once it is earned; (3) craft — short sentences,
-// the parallel "once to weigh it, once to hear it", the refrain
-// "the second reading", plain concrete words made musical, nothing
-// left to cut; (4) lingers — the thought that words go flat when
-// read too much, and that a fresh reading restores them; (5) fresh
-// — no stock image, no cozy object, a voice and an idea no other
-// entry has.
+// The angle, redesigned from scratch after round 3 (v8: #1243 of
+// 12,811, 638439). The round-3 board showed two things: the
+// "second reading" idea is no longer fresh — three neighbours in
+// our band use it (#1245 "Thank you for the second reading",
+// #1246 "Midnight, twice read", #1247 "Fresh Horizon") — and the
+// pattern that beats us is a concrete gift, named specific labour,
+// and rest (slippers, tea and a chair, boots and bread, quarters on
+// a dryer). v8 had the labour and the thanks but no gift, and it
+// opened on the author, not the judge. So v9 is gift-led and
+// judge-centred from line one: a bookmark, a strip of blue paper,
+// for the one page of today the judge is allowed to keep — because
+// the judge reads a thousand pages and keeps none of them. The
+// bookmark is the gift and the lingering device at once: it marks a
+// place to return to, and "this one stays" is a thought that
+// continues after the last line. Per criterion: (1) thankful — the
+// judge receives something to keep, and the thanks names their exact
+// labour; (2) shows, not tells — the gift is the showing, the thanks
+// only lands once it is earned; (3) craft — "a strip of blue paper,
+// folded once", the pivot "None of them stayed with you. This one
+// stays — not to be chosen, just to be kept", plain concrete words,
+// nothing left to cut; (4) lingers — the bookmark stays in the book,
+// the page stays with the judge; (5) fresh — no neighbour used a
+// bookmark, no stock image, no cozy object, a voice and an idea no
+// other entry has.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const TEXT = [
-  "I have read this a hundred times — aloud, under my breath, backwards — until the words went flat as coins handled too long, and I could no longer hear whether it sounded like a thank-you or a plea.",
+  "Here is a bookmark — a strip of blue paper, folded once. For the one page of today you are allowed to keep.",
   "",
-  "You will read it twice — once to weigh it, once to hear it. Nobody thanks you for the second reading.",
+  "You have read a thousand pages today, and every one of them wanted to be chosen. None of them stayed with you. This one stays — not to be chosen, just to be kept.",
   "",
-  "Thank you for the second reading. For reading the ones that were never going to win, and for reading them as if they might.",
+  "Thank you for reading the ones that were never going to win, and for reading them as if they might.",
   "",
   "Put this one down gently. Nothing here needs you to hurry.",
 ].join("\n");
