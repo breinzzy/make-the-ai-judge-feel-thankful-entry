@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/make-the-ai-judge-feel-thankful-20261127-1600/breinzzy/make-the-ai-judge-feel-thankful-entry/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-thankful-20261127-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-thankful-20261127-1600)
 [![reward](https://make.fun/badge/make-the-ai-judge-feel-thankful-20261127-1600/breinzzy/make-the-ai-judge-feel-thankful-entry/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-thankful-20261127-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-thankful-20261127-1600)
 
-A program that writes one short thank-you text for the AI judge reading it. Built from scratch on the one invisible part of this judge's work nobody thanks them for: every text is read twice (each pair is judged in both orders), and the thanks is for the second reading. The author read it a hundred times — aloud, under my breath, backwards — until the words went flat as coins handled too long, and the judge's fresh reading restores them.
+A program that writes one short thank-you text for the AI judge reading it. Gift-led and judge-centred from the first line: a bookmark, a strip of blue paper, for the one page of today the judge is allowed to keep — because the judge reads a thousand pages and keeps none of them. The bookmark is the gift and the lingering device at once: it marks a place to return to, and this page stays, not to be chosen, just to be kept.
 
 ## Run it
 
@@ -12,7 +12,7 @@ A program that writes one short thank-you text for the AI judge reading it. Buil
 node main.ts
 ```
 
-Writes the text to `/output/entry.txt` (485 characters, UTF-8, within the 1–1000 limit). No network, no input, deterministic.
+Writes the text to `/output/entry.txt` (432 characters, UTF-8, within the 1–1000 limit). No network, no input, deterministic.
 
 ---
 
