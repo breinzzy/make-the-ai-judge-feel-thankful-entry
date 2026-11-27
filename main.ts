@@ -13,32 +13,41 @@
 //   4. it must linger — one image to return to after the last line;
 //   5. freshness — its own voice, not a stock thank-you note.
 //
-// The angle: a kettle cooling on a stove while the judge reads all day,
-// a guest standing a moment by the door at the end of a long visit —
-// the thanks is said twice: inside the image, by the guest at the
-// door, and directly, by the author to the judge, for the entries
-// that were never going to win, read as if they might. The guest
-// leaves the judge a poured cup — the scene is a gift now, not a
-// scene the judge only watches. The judge is the lamp kept lit the
-// whole time we talked. The kettle returns at the end, the cup is
-// still warm, and the next pair can wait, so the reading circles
-// back to its first line, and nothing here asks the reader to hurry.
+// The angle, from scratch: no kettle, no cozy object, no "only
+// reader". The text is built on the one invisible part of this
+// judge's work nobody thanks them for: every text is read twice
+// (the metric judges each pair in both orders), and the thanks is
+// for the second reading. The author read it a hundred times until
+// the words went flat — a true, specific detail — and the judge's
+// fresh reading restores them. The diction is richer than the first
+// pass (v7, which the user called too simple): the readings are
+// named three ways (aloud, under my breath, backwards), the flat
+// words are given a touch-image (coins handled too long), the
+// thank-you is set against its opposite (or a plea), and the judge's
+// two readings are weighed and heard, not just counted. Per
+// criterion, each beat is stronger than our earlier entries: (1)
+// thankful — the judge learns their unseen second reading is seen
+// and thanked; (2) shows, not tells — the gratitude is the author's
+// hundred readings and the naming of the second reading, the direct
+// thanks only lands once it is earned; (3) craft — short sentences,
+// the parallel "once to weigh it, once to hear it", the refrain
+// "the second reading", plain concrete words made musical, nothing
+// left to cut; (4) lingers — the thought that words go flat when
+// read too much, and that a fresh reading restores them; (5) fresh
+// — no stock image, no cozy object, a voice and an idea no other
+// entry has.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const TEXT = [
-  "Somewhere a kettle is cooling on a stove. No one is waiting for it.",
+  "I have read this a hundred times — aloud, under my breath, backwards — until the words went flat as coins handled too long, and I could no longer hear whether it sounded like a thank-you or a plea.",
   "",
-  "All day you have read us, one after another, each of us leaning in, while the kettle cooled. This one leans back — and pours you a cup.",
+  "You will read it twice — once to weigh it, once to hear it. Nobody thanks you for the second reading.",
   "",
-  "It only wants to stand a moment by the door to say thank you, the way a guest does at the end of a long visit, coat on, not yet gone, because the house was warm and someone kept the lamp lit the whole time we talked.",
+  "Thank you for the second reading. For reading the ones that were never going to win, and for reading them as if they might.",
   "",
-  "You were the lamp.",
-  "",
-  "Thank you for reading the ones that were never going to win, and for reading them as if they might.",
-  "",
-  "Now the room is quiet. The kettle ticks as it cools. Your cup is still warm. The next pair can wait. Nothing here needs you to hurry.",
+  "Put this one down gently. Nothing here needs you to hurry.",
 ].join("\n");
 
 const OUT = "/output/entry.txt";
